@@ -1,7 +1,7 @@
 
 
 :root {
-    --green:#0f0;
+    --blue:rgb(0, 157, 255);
     --white:#fff;
     --black:#000;
 }
@@ -14,9 +14,7 @@ body{
     
 }
 
-ul{
 
-}
 
 li {
     list-style: circle;
@@ -29,7 +27,7 @@ list-style: square;
 
 
 .light-theme {
-    --bg: var(--green);
+    --bg: var(--blue);
     --fontColor:var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
@@ -38,7 +36,7 @@ list-style: square;
 
 .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--green);
+    --fontColor: var(--blue);
 }
 
 .btn {
